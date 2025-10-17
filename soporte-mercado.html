@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Mercado Pago y Mercado Libre</title>
+    <style>
+        :root {
+            --color-azul-mp: #009ee3;
+            --color-amarillo-ml: #ffda00;
+            --color-blanco: #ffffff;
+            --color-gris-fondo: #f5f7fa;
+            --color-texto: #222;
+            --color-texto-suave: #555;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-gris-fondo);
+            color: var(--color-texto);
+        }
+
+        header {
+            background: linear-gradient(90deg, var(--color-azul-mp), #00bfff);
+            color: var(--color-blanco);
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: var(--color-blanco);
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            color: var(--color-texto-suave);
+            line-height: 1.8;
+        }
+
+        .intro strong {
+            color: var(--color-azul-mp);
+        }
+
+        .contact-card {
+            background-color: var(--color-amarillo-ml);
+            border-radius: 12px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-card h2 {
+            color: var(--color-azul-mp);
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: white;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1ebe5a;
+            transform: translateY(-3px);
+        }
+
+        footer {
+            background-color: var(--color-azul-mp);
+            color: var(--color-blanco);
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soporte Oficial de Mercado Pago y Mercado Libre</h1>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>¿Tienes <strong>problemas con tus transacciones</strong>, cuenta o envíos? <br>
+            Estamos aquí para ofrecerte asistencia rápida y personalizada.</p>
+        </div>
+
+        <div class="contact-card">
+            <h2>Contáctanos Directamente</h2>
+
+            <div class="buttons-container">
+                <a href="https://wa.me/5493564329758" target="_blank" class="btn btn-whatsapp">💬 Enviar mensaje por WhatsApp</a>
+            </div>
+
+            <p style="margin-top: 25px; color: #333;">Estamos disponibles para ayudarte de lunes a viernes de 9:00 a 18:00 hs.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Soluciones MP/ML. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
