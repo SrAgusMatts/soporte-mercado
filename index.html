@@ -24,6 +24,10 @@
   <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/820/820122.png">
   <meta property="og:type" content="website">
 
+  <!-- 🌐 Rendimiento y conexión -->
+  <link rel="preconnect" href="https://cdn-icons-png.flaticon.com">
+  <link rel="dns-prefetch" href="https://cdn-icons-png.flaticon.com">
+
   <!-- 🐦 Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Soporte Mercado Pago y Mercado Libre">
@@ -41,21 +45,47 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "LocalBusiness",
     "name": "Soporte Mercado",
     "url": "https://soporte-mercado.vercel.app/",
-    "logo": "https://cdn-icons-png.flaticon.com/512/820/820122.png",
-    "contactPoint": {
+    "image": "https://cdn-icons-png.flaticon.com/512/820/820122.png",
+    "description": "Soporte oficial de Mercado Pago y Mercado Libre en Argentina. Asistencia personalizada para pagos, compras y cuentas.",
+    "telephone": "+54-11-7132-0212",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AR"
+    },
+    "contactPoint": [{
       "@type": "ContactPoint",
       "telephone": "+54-11-7132-0212",
       "contactType": "customer service",
       "areaServed": "AR",
       "availableLanguage": "es"
-    },
-    "sameAs": [
-      "https://www.mercadopago.com.ar",
-      "https://www.mercadolibre.com.ar"
-    ]
+    }]
+  }
+  </script>
+
+  <!-- 📘 FAQ Schema (mejora SEO en Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "¿Cómo contactar al soporte de Mercado Pago o Mercado Libre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Podés comunicarte directamente llamando al 0800-777-7777 o ingresando a https://soporte-mercado.vercel.app/."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Cuál es el horario de atención?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nuestro soporte está disponible de lunes a viernes de 9:00 a 18:00 hs en toda Argentina."
+      }
+    }]
   }
   </script>
 
