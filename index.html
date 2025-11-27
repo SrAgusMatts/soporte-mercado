@@ -47,9 +47,6 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17755488817"></script>
   <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-17755488817'); </script>
 
-  <!-- Event snippet for Contacto conversion page -->
-  <script> gtag('event', 'conversion', { 'send_to': 'AW-17755488817/iz70CJz10sYbELGEvZJC' }); </script>
-
   <!-- 📚 Datos estructurados: Negocio local -->
   <script type="application/ld+json">
   {
@@ -233,7 +230,9 @@
 
       <div class="buttons-container">
         <a href="tel:+541171320212" class="btn btn-call"
-          aria-label="Llamar al soporte de Mercado Pago y Mercado Libre">📞 Llamar al 1171320212</a>
+          onclick="gtag('event', 'conversion', { 'send_to': 'AW-17755488817/iz70CJz10sYbELGEvZJC' });">
+          📞 Llamar al 1171320212
+        </a>
       </div>
 
       <p style="margin-top: 25px; color: #333;">
